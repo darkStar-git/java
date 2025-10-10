@@ -1,0 +1,1 @@
+Primeiros códigos utilizando o método Scanner em Java
