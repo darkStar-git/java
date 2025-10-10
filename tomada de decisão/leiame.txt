@@ -1,0 +1,1 @@
+Exercícios de tomada de decisão utilizando o método Simples(somente If), Composto (If e Else) e Encadeada (3 ou mais blocos de condição)
