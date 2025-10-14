@@ -1,0 +1,69 @@
+import java.util.Scanner;
+
+public class ConversorDeMoeda {
+
+	public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        double cotacaoEuro = 6.30;
+
+        double cotacaoDolar = 5.40;
+
+        double cotacaoPesoArgentino = 0.0042;
+
+        double tipoViagem;
+
+        double valorReais;
+
+        System.out.print("Digite o valor em Reais (R$) que você levará para a viagem: ");
+
+         valorReais = scanner.nextDouble();
+
+        System.out.println("Escolha o tipo de viagem:");
+
+        System.out.println("1 - Nacional");
+
+        System.out.println("2 - Europeia");
+
+        System.out.println("3 - Norte-americana");
+
+        System.out.println("4 - Sul-americana");
+
+        System.out.print("Digite o número correspondente ao tipo de viagem: ");
+
+         tipoViagem = scanner.nextInt();
+
+        if (tipoViagem == 1) {
+
+            System.out.printf("Viagem Nacional: Você levará R$ %.2f", valorReais);
+
+        } else if (tipoViagem == 2) {
+
+            double valorEuro = valorReais / cotacaoEuro;
+
+            System.out.printf("Viagem Europeia: Você levará € %.2f", valorEuro);
+
+        } else if (tipoViagem == 3) {
+
+            double valorDolar = valorReais / cotacaoDolar;
+
+            System.out.printf("Viagem Norte-americana: Você levará US$ %.2f", valorDolar);
+
+        } else if (tipoViagem == 4) {
+
+            double valorPeso = valorReais / cotacaoPesoArgentino;
+
+            System.out.printf("Viagem Sul-americana: Você levará AR$ %.2f", valorPeso);
+
+        } else {
+
+            System.out.println(" Por favor, escolha uma opção de 1 a 4.");
+
+        }
+
+        scanner.close();
+
+	}
+
+}
