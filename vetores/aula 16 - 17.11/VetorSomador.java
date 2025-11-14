@@ -2,7 +2,7 @@ package vetores;
 
 import java.util.Scanner;
 
-public class Exercicio8 {
+public class VetorSomador {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
@@ -46,3 +46,4 @@ public class Exercicio8 {
 	}
 
 }
+
