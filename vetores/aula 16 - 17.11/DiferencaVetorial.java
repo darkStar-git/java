@@ -2,7 +2,7 @@ package vetores;
 
 import java.util.Scanner;
 
-public class Exercicio10 {
+public class DiferencaVetorial {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
@@ -66,3 +66,4 @@ public class Exercicio10 {
 	}
 
 }
+
