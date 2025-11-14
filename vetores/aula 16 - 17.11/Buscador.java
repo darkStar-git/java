@@ -2,7 +2,7 @@ package vetores;
 
 import java.util.Scanner;
 
-public class Exercicio11 {
+public class Buscador {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -26,3 +26,4 @@ public class Exercicio11 {
 	}
 
 }
+
