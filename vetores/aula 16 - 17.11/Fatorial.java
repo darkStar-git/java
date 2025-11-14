@@ -2,7 +2,7 @@ package vetores;
 
 import java.util.Scanner;
 
-public class Exercicio7 {
+public class Fatorial {
 
 	public static void main(String[] args) {
 		Scanner  in = new Scanner(System.in);
@@ -38,5 +38,6 @@ public class Exercicio7 {
 		
 	}
 	}
+
 
 
