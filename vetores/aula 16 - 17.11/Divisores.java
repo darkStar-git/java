@@ -2,7 +2,7 @@ package vetores;
 
 import java.util.Scanner;
 
-public class Exercicio5 {
+public class Divisores {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -29,4 +29,5 @@ public class Exercicio5 {
         }
     }
 }
+
 
