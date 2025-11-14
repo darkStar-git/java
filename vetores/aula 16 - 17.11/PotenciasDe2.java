@@ -2,7 +2,7 @@ package vetores;
 
 import java.util.Scanner;
 
-public class Exercicio6 {
+public class PotenciasDe2 {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
@@ -23,3 +23,4 @@ public class Exercicio6 {
 	}
 
 }
+
