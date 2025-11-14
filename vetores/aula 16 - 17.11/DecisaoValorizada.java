@@ -2,7 +2,7 @@ package vetores;
 
 import java.util.Scanner;
  
-public class Exercicio15 {
+public class DecisaoValorizada {
     public static void main(String[] args) {
  
         Scanner in = new Scanner(System.in);
@@ -40,4 +40,5 @@ public class Exercicio15 {
             System.out.println("C[" + i + "] = " + c[i]);
         }
     }
+
 }
